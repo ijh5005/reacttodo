@@ -1,0 +1,123 @@
+body {
+  align-items: center;
+  display: flex;
+  font-family: 'Bubbler One', sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.liner {
+  background-color: #DDD;
+  flex-direction: row;
+  height: 36em;
+  width: 50em;
+}
+
+.todoDisplay {
+  background-color: #444;
+  height: 100%;
+  width: 50%;
+}
+
+.textHolder {
+  flex-direction: column;
+  height: 80%;
+  width: 80%;
+}
+
+.todoDisplayText, .todoDisplayTextHeader {
+  color: #FFF;
+  font-size: 1.6em;
+}
+
+.todoDisplayTextHeader {
+  font-size: 1.2em;
+}
+
+.todoInterface {
+  background-color: #DDD;
+  height: 100%;
+  width: 50%;
+}
+
+.inputDiv {
+  height: 5em;
+  width: 25em;
+}
+
+.inputDiv form {
+  height: 100%;
+  width: 100%;
+}
+
+.inputDiv input {
+  border: none;
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 2em;
+  height: 100%;
+  outline-color: #D30000;
+  outline-width: 1em;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.ol {
+  font-size: 1.6em;
+  height: 30rem;
+  margin: 0.4em 0;
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 80%;
+}
+
+.ol li {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 0;
+  width: 90%;
+}
+
+.ol li:hover {
+  color: #D30000;
+  cursor: pointer;
+}
+
+.ol li button {
+  border: 0.1em solid #FFF;
+  margin-left: 2em;
+}
+
+.ol li button:hover {
+  background-color: #D30000;
+  color: #FFF;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 0, 0, 0.4);
+}
